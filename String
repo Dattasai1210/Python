@@ -1,0 +1,53 @@
+1.String Length
+a="Welcome To ThunderSoft"
+print(len(a))
+
+2.Check String
+a="Welcome To ThunderSoft"
+print("To" in a)
+
+3.Slicing
+a="Welcome To ThunderSoft"
+print(a[0:10])
+
+4.Reverse of String
+a="Welcome To ThunderSoft"
+print(a[::-1])
+
+5.Upper Case 
+a="Welcome To ThunderSoft"
+print(a.upper())
+
+6.Lower Case
+a="Welcome To ThunderSoft"
+print(a.lower())
+
+7.Removing Whitespaces
+a="     Welcome To ThunderSoft"
+print(a.strip())
+
+8.Replacing String
+a="Welcome To ThunderSoft"
+print(a.replace("To ThunderSoft","Everyone"))
+
+9.String Splitting
+a="Welcome,To,ThunderSoft"
+print(a.split(","))
+
+10.String Concatenation
+a="Welcome"
+b=" To"
+c=" Thundersoft"
+d=a+b+c
+print(d)
+
+11.Using format() method
+name="Datta sai"
+id=549
+role="Intern"
+s="My name is {} holding id {} and joined for {}"
+print(s.format(name,id,role))
+
+12.Escape Character
+a="Welcome To \"ThunderSoft\"" 
+print(a)
