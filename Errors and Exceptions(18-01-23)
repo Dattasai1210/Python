@@ -1,0 +1,25 @@
+Syntax Error:
+print("Hello)
+print('hello")
+
+Logical Error:
+x=5
+y=10
+avg=5+10/2
+print(avg)
+avg=(5+10)/2
+print(avg)
+
+Runtime Error:
+xyz=100
+print(xz)
+
+Exceptions:
+try:
+    print("Hello")
+except:
+    print("An execption occur")
+else:
+    print("everything is going good")
+finally:
+    print("the try except is finished")
